@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #ff4081;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.track-list {
+    list-style: none;
+    padding: 0;
+}
+
+.track-item {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.track-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.track-artist {
+    font-size: 14px;
+    color: #666;
+}
+
+.upload-button {
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background: #e91e63;
+}
